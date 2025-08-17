@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --color-topBar: #F36530;
+  --color-olive: #B0AA35;
+  --color-cream: #FDF9F5;
+  --color-pink: #F4ABAF;
+  --font-OverpassMono: "OverpassMono";
+  --font-Overpass: "Overpass";
+  --font-Epilogue: "Epilogue"
+  --font-Karla: "Karla";
+}
+
+@font-face{
+  font-family: 'OverpassMono';
+  src: url("./Fonts/OverpassMono-VariableFont_wght.ttf")
+}
+
+@font-face{
+  font-family: "Overpass";
+  src: url("./Fonts/Overpass.ttf")
+}
+
+@font-face{
+  font-family: "Epilogue";
+  src: url("./Fonts/Epilogue.ttf")
+}
+
+@font-face{
+  font-family: "Karla";
+  src: url("./Fonts/Karla.ttf")
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: black;
+  background-color: #FFFFFF;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.navButton{
+  text-decoration: none;
+  color: #000000;
+  user-select: none;
+  transition: 0.1s ease;
+}
+
+.navButton:hover{
+  transform: scale(1.1);
+}

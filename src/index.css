@@ -5,6 +5,7 @@
   --color-olive: #B0AA35;
   --color-cream: #FDF9F5;
   --color-pink: #F4ABAF;
+  --color-blackblue: #171645;
   --font-OverpassMono: "OverpassMono";
   --font-Overpass: "Overpass";
   --font-Epilogue: "Epilogue"
@@ -29,6 +30,11 @@
 @font-face{
   font-family: "Karla";
   src: url("./Fonts/Karla.ttf")
+}
+
+@font-face{
+  font-family: "Golos";
+  src: url("./Fonts/Golos.ttf")
 }
 
 :root {
@@ -56,9 +62,4 @@ body {
   text-decoration: none;
   color: #000000;
   user-select: none;
-  transition: 0.1s ease;
-}
-
-.navButton:hover{
-  transform: scale(1.1);
 }

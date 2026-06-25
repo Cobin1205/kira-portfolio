@@ -4,11 +4,11 @@ import Instagram from '../assets/Instagram.svg'
 export function Footer(){
     return(
 
-        <div className='bg-olive h-[250px] w-full mt-[100px] p-8'>
+        <div className='bg-olive w-full mt-[100px] p-8'>
 
-            <h1 className='font-Overpass font-bold text-center text-[1.5rem]'>KIRA BLISS</h1>
+            <h1 className='font-Overpass font-bold text-center text-[1.3rem] sm:text-[1.5rem]'>KIRA BLISS</h1>
 
-            <p className='text-center font-OverpassMono leading-[2.2] mt-[10px] font-semibold'>
+            <p className='text-center font-OverpassMono text-[0.75rem] sm:text-[0.8rem] leading-[2.2] mt-[10px] font-semibold'>
                 Graphic Designer ✶ Illustrator ✶ Muralist <br/> 
                 2025 Kira Bliss. All Rights Reserved.
             </p>

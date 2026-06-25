@@ -1,9 +1,11 @@
+//Components
 import { Header } from '../Components/header.jsx'
 import { Footer } from '../Components/footer.jsx'
+import { HighlightImgLink } from '../Components/HighlightImgLink.jsx'
 
 //Designs
 import LoyalShirts from '../assets/DesignWorks/LoyalShirts.png'
-import Post3 from '../assets/DesignWorks/Post_3 1.jpg'
+import BlissfulHabits from '../assets/DesignWorks/Post_3 1.jpg'
 import Mural from '../assets/DesignWorks/Mural.png'
 import Mural2 from '../assets/DesignWorks/Mural2.png'
 import BlackMagic from '../assets/DesignWorks/BlackMagic.png'
@@ -23,15 +25,15 @@ export function DesignWork() {
 
         <ResponsiveMasonry columnsCountBreakPoints={{500: 2, 700: 3}} className='w-[90%] max-w-[1000px] m-auto'>
             <Masonry>
-                <img src={LoyalShirts} className='w-full'></img>
-                <img src={Post3} className='w-full'></img>
-                <img src={Mural} className='w-full'></img>
-                <img src={Mural2} className='w-full'></img>
-                <img src={BlackMagic} className='w-full'></img>
-                <img src={PetProject} className='w-full'></img>
-                <img src={CallumABC} className='w-full'></img>
-                <img src={GirlsRock} className='w-full'></img>
-                <img src={DakotaTreat} className='w-full'></img>
+                <HighlightImgLink link='/LoyalSons' img={LoyalShirts} label="Loyal Sons Barber Shop Merch"/>
+                <HighlightImgLink link='/BlissfulHabits' img={BlissfulHabits} label="Blissful Habits"/>
+                <HighlightImgLink link='/' img={Mural} label="Raccoon Mural (placeholder text)"/> 
+                <HighlightImgLink link='/' img={Mural2} label="Cactus Mural (placeholder text)"/>
+                <HighlightImgLink link='/' img={BlackMagic} label="Black Magic Tattoo Website"/>
+                <HighlightImgLink link='/PetProject' img={PetProject} label="The Pet Project Website"/>
+                <HighlightImgLink link='/CallumsABCs' img={CallumABC} label="Callum's ABCs"/>
+                <HighlightImgLink link='/GRDSM' img={GirlsRock} label="GR!DSM Summer Camp Branding"/>
+                <HighlightImgLink link='/PetPackaging' img={DakotaTreat} label="Pet Packaging & Illustrations"/>
             </Masonry>
         </ResponsiveMasonry>
 

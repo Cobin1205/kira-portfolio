@@ -11,14 +11,14 @@ export function About(){
 
         <div className='w-full bg-cream'>
             <p className="mx-auto my-[50px] text-center text-pink-500 p-5">HELLO FRIEND animated text</p>
-            <div className='flex justify-evenly w-full p-[20px]'>
+            <div className='sm:flex justify-evenly w-full p-[20px]'>
 
-                <div className='flex-1'>
+                <div className='flex-1 sm:mb-0 mb-[50px]'>
                     <img src={ProfilePhoto} className='w-[70%] h-auto m-auto'></img>
                 </div>
 
-                <div className='flex-1  pr-[8vw]'>
-                    <h1 className='lg:text-[2rem] md:text-[2rem] text-[1.5rem] font-Epilogue text-olive font-bold leading-tight'>
+                <div className='flex-1  px-[5vw] md:px-0 md:pr-[8vw] m-auto'>
+                    <h1 className='md:text-[2rem] text-[1.5rem] font-Epilogue text-olive font-bold leading-tight'>
                         I’m Kira Bliss, a Midwest based graphic designer, illustrator, and muralist!
                     </h1>
 
@@ -44,20 +44,20 @@ export function About(){
         </div>
 
         <div className='w-full bg-pink'>
-            <div className='flex p-[5vw] px-[5vw] gap-[2vw]'>
+            <div className='md:flex p-[5vw] px-[10vw] gap-[2vw]'>
 
-                <div className='flex-1 m-auto border-block '>
+                <div className='flex-1 m-auto border-block'>
                     <h1 className='font-Epilogue lg:text-[2rem] md:text-[2rem] text-[1.5rem] font-bold'>
                         My Little Assistants!
                     </h1>
-                    <p className='font-OverpassMono lg:text-[1.25rem] md:text-[1.25rem] text-[0.75rem]'>
+                    <p className='font-OverpassMono sm:text-[1.25rem] text-[0.9rem] text-[0.75rem]'>
                         <br/>
                         Kiki and Mochi occasionally help out the creative process, 
                         but they’re mostly there for pets and emotional support.
                     </p>
                 </div>
 
-                <div className='flex-1 border-block w-full '>
+                <div className='flex-1 border-block w-full mt-[20px] md:mt-0'>
                     <img src={KikiMochi} className='w-full'></img>
                 </div>
             </div>
